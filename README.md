@@ -1,2 +1,1 @@
-# CML-for-SSMIS
-The official repo for "Cross-View Mutual Learning for Semi-Supervised Medical Image Segmentation" (ACM MM 2024）)
+We are in the process of organizing the relevant codes and datasets, and will be the first to release them in the future. Thank you for your interest in our project.
