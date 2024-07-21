@@ -1,4 +1,4 @@
-# Cross-View Mutual Learning for Semi-Supervised Medical Image Segmentation" (ACM'MM 2024 Poster)
+# Cross-View Mutual Learning for Semi-Supervised Medical Image Segmentation (ACM'MM 2024 Poster)
 > **Authors:**
 Song Wu, Xiaoyu Wei, Xinyue Chen, Yazhou Ren, Jing. He, Xiaorong Pu.
 
