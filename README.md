@@ -25,7 +25,7 @@ This repository is based on PyTorch 1.9.1, CUDA 11.6 and Python 3.9.15. All expe
 
 <img src="https://github.com/SongwuJob/CML/blob/main/figure/workflow.png"  width="900" />
 
-Overall pipeline of CML in the co-training framework. We first apply the CutMix operation to modify the inputs and supervisory signals to conduct the supervision objective $\mathcal{L}_{sup}$. Specifically, for labeled data, we conduct the same CutMix to generate mixed labels $Y^l_{mix}$, which are used to supervise the predictions of $X^l_{mix}$. For unlabeled data, we construct heterogeneous supervisory signals $Y^u_{mix,0}$ and $Y^u_{mix,1}$, obtained by the combination of two subnets' pseudo-labels, to supervise the predictions of $X^u_{mix}$. Note that $\mathcal{L}_{dis}$ is a conflict-based unsupervised loss, aiming to learn distinct features from the same input.
+Overall pipeline of CML in the co-training framework. We first apply the CutMix operation to modify the inputs and supervisory signals to conduct the supervision objective $L_{sup}$. Specifically, for labeled data, we conduct the same CutMix to generate mixed labels $Y^l_{mix}$, which are used to supervise the predictions of $X^l_{mix}$. For unlabeled data, we construct heterogeneous supervisory signals $Y^u_{mix,0}$ and $Y^u_{mix,1}$, obtained by the combination of two subnets' pseudo-labels, to supervise the predictions of $X^u_{mix}$. Note that $\mathcal{L}_{dis}$ is a conflict-based unsupervised loss, aiming to learn distinct features from the same input.
 
 ## 3. Usage
 We provide `code`, and `data` for LA and ACDC datasets.
