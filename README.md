@@ -51,3 +51,16 @@ Particularly, we provide the complete LA and ACDC datasets in [cloud](https://pa
 ## 5. Acknowledgements
 
 Our code is modified from [URPC](https://github.com/HiLab-git/SSL4MIS), [SS-Net](https://github.com/ycwu1997/SS-Net) and [BCP](https://github.com/DeepMed-Lab-ECNU/BCP). Thanks to these authors for their valuable work.
+
+## 6.Citation
+If you use our code or datas in this repository for your research, please cite our papers.
+```latex
+@inproceedings{ACMMM24CML,
+  author = {Song Wu, Xiaoyu Wei, Xinyue Chen, Yazhou Ren, Jing. He, Xiaorong Pu},
+  title = {Cross-View Mutual Learning for Semi-Supervised Medical Image Segmentation},
+  journal ={ACM Multimedia (ACM MM)},
+  year = {2024},
+}
+```
+
+If you have any problems, please contact me by songwu.work@outlook.com.
